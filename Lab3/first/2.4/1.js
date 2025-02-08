@@ -1,7 +1,7 @@
 let admin;
 let name;
 
-name = "John";
+name = "Beknur";
 
 admin = name;
 

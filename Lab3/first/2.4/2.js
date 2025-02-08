@@ -1,3 +1,3 @@
 let ourPlanetName = "Earth";
 
-let currentUserName = "John";
+let currentUserName = "Beknur";

@@ -20,9 +20,10 @@
         <span id="cnt"><strong>{{ product.likes }}</strong></span>
       </div>
     </div>
-    <p *ngIf="product.description">
-      Description: {{product.description}}
+    <p *ngIf="product?.description">
+      {{ product?.description }}
     </p>
+
   
     <div id="share">
       <button id="shr" (click)="share(product.kaspiLink)">

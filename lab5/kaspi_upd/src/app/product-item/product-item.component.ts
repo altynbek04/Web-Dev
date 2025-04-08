@@ -4,8 +4,9 @@ import { Product } from '../products'
 @Component({
   selector: 'app-product-items',
   templateUrl: './product-item.component.html',
-  styleUrl: './product-item.component.css'
+  styleUrls: ['./product-item.component.css'] 
 })
+
 export class ProductItemsComponent {
   @Input()
   product!: Product;
